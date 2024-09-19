@@ -1,0 +1,2 @@
+document.querySelectorAll("form").forEach(function(e){e.querySelectorAll("input").forEach(function(e){var t=function(e){return e.replace(/([a-z])([A-Z])/g,"$1 $2").replace(/^[a-z]/,function(e){return e.toUpperCase()})},r=document.createElement("label");r.classList.add("field-label");var n=e.id||e.name;r.setAttribute("for",n);var a=e.name;r.textContent=a?"".concat(t(a)):"Unnamed input",e.parentNode.insertBefore(r,e);var o=a?t(a):"";e.placeholder=o})});
+//# sourceMappingURL=index.dd0ccaf1.js.map
